@@ -1,0 +1,217 @@
+*{
+    padding: 0px;
+    margin : 0px;
+    width :100%;
+}
+.wrapper{
+    width:1000px;
+    padding:10px;
+    margin: 0px;
+}
+.header{
+    width:100%;
+    height: 50px;
+    padding:0px;
+    margin: 0px;
+    background: linear-gradient(white,#adacac);
+    border-radius: 10px;
+}
+.header img{
+    display: inline-block;
+    width:60px;
+    border-radius: 10px 0px 0px 10px; 
+}
+.header ul{
+    list-style-type: none;
+    display: inline-block;
+    height: 50px;
+    width:550px;
+    margin: 0px;
+    vertical-align: top;
+}
+.header ul li {
+    width:60px;
+    height: 20px;
+    padding:15px;
+    display: inline-block; 
+    border-right: 1px solid #d6d5d5;
+    text-align: center;
+}
+.header a{
+    text-decoration: none; 
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.header button{
+    display: inline-block;
+    width: 10px;
+}
+.search{
+    height: 30px;
+    width:200px;
+    display: inline-block;
+    margin:10px 5px 10px 170px;
+    vertical-align: top;
+}
+.search button{
+    width:27px;
+    height:27px;
+    margin:  0px;
+   color:white;
+   border-radius: 10px 0px 0px 10px;
+   display: inline-block;
+}
+.search input{
+    display: inline-block;
+    width:130px;
+    vertical-align: top;
+    height:23px;
+    margin: 2px -5px;
+}
+.search img{
+    display: inline-block;
+    width:30px;
+}
+.navbar{
+    width:100%;
+    margin-top:20px;
+}
+.navbar ul{
+    width: 98%;
+    height: 30px;
+    margin: 0px;
+    padding: 10px;
+    list-style-type: none;
+    color: white;
+    background: rgb(41, 40, 40);
+    margin-top: -4px;
+    border-radius: 0px 0px 10px 10px;
+}
+.navbar ul li{
+    display: inline;
+    padding: 10px ;
+    vertical-align: top;
+    font-size: 15px;
+}
+.navbar ul li a{
+    color: rgb(81, 160, 240);
+    text-decoration: none; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.middle-content{
+    width:100%;
+    margin-top:20px;
+    color: #eee;
+    height:590px;
+    border: 2px solid rgb(182, 180, 180);
+}
+.top-box{
+    border-bottom:2px solid rgb(182, 180, 180); 
+}
+.top-box p{
+    display:inline-block;
+    margin: 20px 20px 20px 50px;
+    width:610px;
+    height:50px;
+    font-size: 35px;
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-box button{
+    display:inline-block;
+    width: 250px;
+    height:50px;
+    padding-left: 30px;
+    color:white;
+    background: blue;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+.main-box{
+    width:97%;
+    height:350px;
+    padding: 30px 0px 30px 30px;
+    border-bottom: 2px solid rgb(182, 180, 180);
+}
+.m-box{
+    margin-right: 20px;
+    width: 215px;
+    display: inline-block;
+    height:320px;
+    vertical-align: top;
+}
+.m-box div img {
+    width: 30px;
+    display: inline-block;
+    margin-right:10px;
+}
+.m-box div h4{
+    display: inline;
+    color:black;
+    padding-bottom: 5px;
+    vertical-align: 5px;
+}
+.m-box p{
+    color: rgb(148, 144, 144);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    height:35px;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+.m-box img.special{
+    height: 140px;
+    margin: 5px 0px;
+}
+.m-box button{
+    background:linear-gradient(to top left, blue,rgb(92, 146, 218));
+    height:30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+}
+.bottom-content{
+    width: 100%;
+    height:500px;
+    margin-top: 10px;
+}
+.bottom-column{
+    width:100%;
+    height: 350px;
+    border-bottom: 1px solid rgb(182, 180, 180);
+}
+.b-box{
+    display: inline-block;
+    width: 163px;
+    vertical-align: top;
+    height:300px;
+}
+.b-box h4{
+    margin: 20px 0px;
+    padding: 20px 0px;
+    width:160px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 1px solid rgb(182, 180, 180);
+}
+.b-box ul{
+    list-style-type: none;
+}
+.b-box ul li a {
+    color:rgb(148, 144, 144);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.b-box ul li{
+    margin: 20px 0px;
+}
+.bottom-content p{
+    margin: 20px;
+    color:rgb(148, 144, 144);
+}
